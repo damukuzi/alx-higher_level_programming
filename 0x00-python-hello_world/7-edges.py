@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 word = "Holberton"
-print(f"First 3 letters: {word[:3]}")
-print(f"Last 2 letters: {word[-2:]}")
-print(f"Middle word: {word[1:-1]}")
+three = word[:3]
+two = word[-2]
+middle = word[1:-1]
+print(f"First 3 letters: {three}")
+print(f"Last 2 letters: {two}")
+print(f"Middle word: {middle}")
 
